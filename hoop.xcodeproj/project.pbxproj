@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A1137AE91AA24AE300681571 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1137AE81AA24AE300681571 /* AppDelegate.swift */; };
-		A1137AEB1AA24AE300681571 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1137AEA1AA24AE300681571 /* MasterViewController.swift */; };
-		A1137AED1AA24AE300681571 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1137AEC1AA24AE300681571 /* DetailViewController.swift */; };
-		A1137AF01AA24AE300681571 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1137AEE1AA24AE300681571 /* Main.storyboard */; };
-		A1137AF21AA24AE300681571 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1137AF11AA24AE300681571 /* Images.xcassets */; };
-		A1137AF51AA24AE300681571 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1137AF31AA24AE300681571 /* LaunchScreen.xib */; };
-		A1137B011AA24AE300681571 /* hoopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1137B001AA24AE300681571 /* hoopTests.swift */; };
+		A1137B471AA255F300681571 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1137B391AA255F300681571 /* AppDelegate.swift */; };
+		A1137B481AA255F300681571 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1137B3A1AA255F300681571 /* LaunchScreen.xib */; };
+		A1137B491AA255F300681571 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1137B3C1AA255F300681571 /* Main.storyboard */; };
+		A1137B4A1AA255F300681571 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1137B3E1AA255F300681571 /* Images.xcassets */; };
+		A1137B4B1AA255F300681571 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A1137B3F1AA255F300681571 /* Info.plist */; };
+		A1137B4C1AA255F300681571 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1137B401AA255F300681571 /* ViewController.swift */; };
+		A1137B4D1AA255F300681571 /* hoop1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1137B421AA255F300681571 /* hoop1Tests.swift */; };
+		A1137B4E1AA255F300681571 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A1137B431AA255F300681571 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,20 +25,34 @@
 			remoteGlobalIDString = A1137AE21AA24AE300681571;
 			remoteInfo = hoop;
 		};
+		A1137B511AA255F400681571 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1137B441AA255F300681571 /* hoop1.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A1137B131AA2559100681571;
+			remoteInfo = hoop1;
+		};
+		A1137B531AA255F400681571 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1137B441AA255F300681571 /* hoop1.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A1137B281AA2559100681571;
+			remoteInfo = hoop1Tests;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A1137AE31AA24AE300681571 /* hoop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hoop.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A1137AE71AA24AE300681571 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A1137AE81AA24AE300681571 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A1137AEA1AA24AE300681571 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
-		A1137AEC1AA24AE300681571 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
-		A1137AEF1AA24AE300681571 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A1137AF11AA24AE300681571 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		A1137AF41AA24AE300681571 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		A1137AFA1AA24AE300681571 /* hoopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hoopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A1137AFF1AA24AE300681571 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A1137B001AA24AE300681571 /* hoopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hoopTests.swift; sourceTree = "<group>"; };
+		A1137AE31AA24AE300681571 /* hoop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = hoop.app; path = "/Users/briankincade/Documents/dev/hoopapp/build/Debug-iphoneos/hoop.app"; sourceTree = "<absolute>"; };
+		A1137AFA1AA24AE300681571 /* hoopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = hoopTests.xctest; path = "/Users/briankincade/Documents/dev/hoopapp/build/Debug-iphoneos/hoopTests.xctest"; sourceTree = "<absolute>"; };
+		A1137B391AA255F300681571 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A1137B3B1AA255F300681571 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A1137B3D1AA255F300681571 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A1137B3E1AA255F300681571 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A1137B3F1AA255F300681571 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1137B401AA255F300681571 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A1137B421AA255F300681571 /* hoop1Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = hoop1Tests.swift; sourceTree = "<group>"; };
+		A1137B431AA255F300681571 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1137B441AA255F300681571 /* hoop1.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = hoop1.xcodeproj; path = hoop1/hoop1.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,58 +76,43 @@
 		A1137ADA1AA24AE200681571 = {
 			isa = PBXGroup;
 			children = (
-				A1137AE51AA24AE300681571 /* hoop */,
-				A1137AFD1AA24AE300681571 /* hoopTests */,
-				A1137AE41AA24AE300681571 /* Products */,
+				A1137B381AA255F300681571 /* hoop1 */,
+				A1137B411AA255F300681571 /* hoop1Tests */,
+				A1137B441AA255F300681571 /* hoop1.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
-		A1137AE41AA24AE300681571 /* Products */ = {
+		A1137B381AA255F300681571 /* hoop1 */ = {
 			isa = PBXGroup;
 			children = (
-				A1137AE31AA24AE300681571 /* hoop.app */,
-				A1137AFA1AA24AE300681571 /* hoopTests.xctest */,
+				A1137B391AA255F300681571 /* AppDelegate.swift */,
+				A1137B3A1AA255F300681571 /* LaunchScreen.xib */,
+				A1137B3C1AA255F300681571 /* Main.storyboard */,
+				A1137B3E1AA255F300681571 /* Images.xcassets */,
+				A1137B3F1AA255F300681571 /* Info.plist */,
+				A1137B401AA255F300681571 /* ViewController.swift */,
+			);
+			name = hoop1;
+			path = hoop1/hoop1;
+			sourceTree = "<group>";
+		};
+		A1137B411AA255F300681571 /* hoop1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A1137B421AA255F300681571 /* hoop1Tests.swift */,
+				A1137B431AA255F300681571 /* Info.plist */,
+			);
+			name = hoop1Tests;
+			path = hoop1/hoop1Tests;
+			sourceTree = "<group>";
+		};
+		A1137B451AA255F300681571 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1137B521AA255F400681571 /* hoop1.app */,
+				A1137B541AA255F400681571 /* hoop1Tests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		A1137AE51AA24AE300681571 /* hoop */ = {
-			isa = PBXGroup;
-			children = (
-				A1137AE81AA24AE300681571 /* AppDelegate.swift */,
-				A1137AEA1AA24AE300681571 /* MasterViewController.swift */,
-				A1137AEC1AA24AE300681571 /* DetailViewController.swift */,
-				A1137AEE1AA24AE300681571 /* Main.storyboard */,
-				A1137AF11AA24AE300681571 /* Images.xcassets */,
-				A1137AF31AA24AE300681571 /* LaunchScreen.xib */,
-				A1137AE61AA24AE300681571 /* Supporting Files */,
-			);
-			path = hoop;
-			sourceTree = "<group>";
-		};
-		A1137AE61AA24AE300681571 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				A1137AE71AA24AE300681571 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		A1137AFD1AA24AE300681571 /* hoopTests */ = {
-			isa = PBXGroup;
-			children = (
-				A1137B001AA24AE300681571 /* hoopTests.swift */,
-				A1137AFE1AA24AE300681571 /* Supporting Files */,
-			);
-			path = hoopTests;
-			sourceTree = "<group>";
-		};
-		A1137AFE1AA24AE300681571 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				A1137AFF1AA24AE300681571 /* Info.plist */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,8 +180,14 @@
 				Base,
 			);
 			mainGroup = A1137ADA1AA24AE200681571;
-			productRefGroup = A1137AE41AA24AE300681571 /* Products */;
+			productRefGroup = A1137ADA1AA24AE200681571;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = A1137B451AA255F300681571 /* Products */;
+					ProjectRef = A1137B441AA255F300681571 /* hoop1.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				A1137AE21AA24AE300681571 /* hoop */,
@@ -190,14 +196,33 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		A1137B521AA255F400681571 /* hoop1.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = hoop1.app;
+			remoteRef = A1137B511AA255F400681571 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A1137B541AA255F400681571 /* hoop1Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = hoop1Tests.xctest;
+			remoteRef = A1137B531AA255F400681571 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		A1137AE11AA24AE300681571 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1137AF01AA24AE300681571 /* Main.storyboard in Resources */,
-				A1137AF51AA24AE300681571 /* LaunchScreen.xib in Resources */,
-				A1137AF21AA24AE300681571 /* Images.xcassets in Resources */,
+				A1137B4B1AA255F300681571 /* Info.plist in Resources */,
+				A1137B4A1AA255F300681571 /* Images.xcassets in Resources */,
+				A1137B481AA255F300681571 /* LaunchScreen.xib in Resources */,
+				A1137B4E1AA255F300681571 /* Info.plist in Resources */,
+				A1137B491AA255F300681571 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,9 +240,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1137AED1AA24AE300681571 /* DetailViewController.swift in Sources */,
-				A1137AEB1AA24AE300681571 /* MasterViewController.swift in Sources */,
-				A1137AE91AA24AE300681571 /* AppDelegate.swift in Sources */,
+				A1137B4D1AA255F300681571 /* hoop1Tests.swift in Sources */,
+				A1137B4C1AA255F300681571 /* ViewController.swift in Sources */,
+				A1137B471AA255F300681571 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,7 +250,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1137B011AA24AE300681571 /* hoopTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,20 +264,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A1137AEE1AA24AE300681571 /* Main.storyboard */ = {
+		A1137B3A1AA255F300681571 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A1137AEF1AA24AE300681571 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		A1137AF31AA24AE300681571 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A1137AF41AA24AE300681571 /* Base */,
+				A1137B3B1AA255F300681571 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		A1137B3C1AA255F300681571 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1137B3D1AA255F300681571 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -411,6 +435,7 @@
 				A1137B061AA24AE300681571 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A1137B071AA24AE300681571 /* Build configuration list for PBXNativeTarget "hoopTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +444,7 @@
 				A1137B091AA24AE300681571 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
